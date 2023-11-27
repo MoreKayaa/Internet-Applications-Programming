@@ -1,7 +1,9 @@
-Favian Mokaya Imbera 
-SCT211-0022/2021
+Favian Mokaya Imbera->SCT211-0022/2021
+Hilda Wairimu->SCT211-0026/2022
+Rowe Pearl Rowena->SCT211-0678/2021
+Kimani Owen mwangi->SCT211-0591/2021
 # Internet-Applications-Programming
-This repository contains all the files related to the Java Script group assignment(I have done it alone)
+This repository contains all the files related to the Java Script group assignment
 
 This is the order of opening files according to the list on the pdf:
 query_submit.js
