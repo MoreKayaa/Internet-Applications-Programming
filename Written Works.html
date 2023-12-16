@@ -1,0 +1,1143 @@
+<!-- Favian Mokaya Imbera
+    SCT211-0022/2021
+    Website created using HTML and bootstrap -->
+
+    <!DOCTYPE HTML>
+    <head>
+        <meta charset="utf-8">
+        <title>Gill Scott-Heron</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+          <link rel="stylesheet" href="Written Works.css"> 
+        <script ref="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+         <script ref="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <!-- Begin navbar -->
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Gill Scott-Heron</a>
+            <button type="button" class="navbar-toggle" 
+                    data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="Written Works.html">Written Works</a></li>
+              <li><a href="SCT211-0022-2021 Biography.html">Bio</a></li>
+              <li><a href="Music.html">Music</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- End of navbar -->
+    
+    <!-- Begin container and jumbotron -->
+    <div class="container">
+
+      <div class="jumbotron alert-info">
+        <!-- Begin title  and picture-->
+        <div class="container">
+          <div class="panel-group">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h1 class="text-center">Gill Scott-Heron</h1>
+                <h2 class="text-center"><small><em>Giving the world forty-one years of spoken words</em></small></h2><img class="img-rounded img-responsive center-block" src="https://github.com/reezun720/reezun720.github.io/blob/master/img/gillScottHeron.jpg?raw=true" alt="Gill Scott Heron">
+                <div class="panel-body text-center">An American soul and jazz poet, musician and author.</div>
+                <div class="panel-body text-center">Last known address is New York City where he died after a trip to Europe</div>
+              </div>
+            </div>
+            <!-- End title and picture -->
+            <br>
+            <p class="text-center"><a name="writtenWorks"><strong>Here's work written by Gill Scott-Heron:</strong></a></p>
+            <table cellspacing="0" cellpadding="0" border="0" width="100%" class="tableList">
+		  
+              <!-- Add query string params -->
+            
+              
+            <script type="text/javascript" charset="utf-8">
+            //<![CDATA[  
+            
+              function submitShelfLink(unique_id, book_id, shelf_id, shelf_name, submit_form, exclusive) {
+                var checkbox_id = 'shelf_name_' + unique_id + '_' + shelf_id;
+                var element = document.getElementById(checkbox_id)
+            
+                var checked = element.checked
+                if (checked && exclusive) {
+                  // can't uncheck a radio by clicking it!
+                  return
+                }
+                if(document.getElementById("savingMessage")){
+                  Element.show('savingMessage')
+                }
+                var element_id = 'shelfInDropdownName_' + unique_id + '_' + shelf_id;
+                Element.update(element_id, "saving...");
+                if (submit_form) {
+                  Element.hide('shelfDropdown_' + unique_id)
+                  var form = document.getElementById('addBookForm' + book_id)
+                  if (form) {
+                    form.shelf.value = shelf_name
+                    form.onsubmit()
+                  }
+                }
+                else {
+                  var action = checked ? 'remove' : ''
+                  element.checked = !element.checked
+                  new Ajax.Request('/shelf/add_to_shelf', {asynchronous:true, evalScripts:true, onSuccess:function(request){shelfSubmitted(request, book_id, checkbox_id, element_id, unique_id, shelf_name)}, parameters:'book_id=' + book_id + '&name=' + shelf_name + '&a=' + action + '&authenticity_token=' + encodeURIComponent('QRSuKpd/dpkAvqtSs5q/YgUW434zTe/MdKHfX2zhZBl2ZeA7xFr/gUjTbxMrjZlkcARwd9aeyvTUjl+rjh8ZFQ==')})
+                }
+              }
+            
+              function shelfSubmitted(request, book_id, checkbox_id, element_id, unique_id, shelf_name) {
+                Element.update('shelfListfalse_' + book_id, request.responseText)
+                afterShelfSave(checkbox_id, element_id, unique_id, shelf_name.escapeHTML())
+              }
+            
+              function refreshGroupBox(group_id, book_id) {
+                new Ajax.Updater('addGroupBooks' + book_id + '', '/group/add_book_box', {asynchronous:true, evalScripts:true, onSuccess:function(request){refreshGroupBoxComplete(request, book_id);}, parameters:'id=' + group_id + '&book_id=' + book_id + '&refresh=true' + '&authenticity_token=' + encodeURIComponent('WkbQdMqDZuikhkO+IqA96N7hQF3RbP5Q5Xrb7oCJimJtN55lmabv8Ozrh/+6txvuq/PTVDS/22hFVVsaYnf3bg==')})
+              }
+            //]]>
+            </script>
+            
+              <tbody><tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="2506146" class="u-anchorTarget"></div>
+                    <a title="The Last Holiday: A Memoir" href="/book/show/2506146.The_Last_Holiday">
+                      <img alt="The Last Holiday: A Memoir" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1335048799i/2506146._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/2506146.The_Last_Holiday">
+                    <span itemprop="name" role="heading" aria-level="4">The Last Holiday: A Memoir</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="38725547" class="u-anchorTarget"></div>
+                    <a title="Poems for a World Gone to Sh*t" href="/book/show/38725547-poems-for-a-world-gone-to-sh-t">
+                      <img alt="Poems for a World Gone to Sh*t" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519353676i/38725547._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/38725547-poems-for-a-world-gone-to-sh-t">
+                    <span itemprop="name" role="heading" aria-level="4">Poems for a World Gone to Sh*t</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/64716.Philip_Larkin"><span itemprop="name">Philip Larkin</span></a>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/947.William_Shakespeare"><span itemprop="name">William Shakespeare</span></a>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/17735256.Li_Ch_ing_Chao"><span itemprop="name">Li Ch'ing-Chao</span></a>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/87327.Thomas_Hood"><span itemprop="name">Thomas Hood</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="1723385" class="u-anchorTarget"></div>
+                    <a title="The Vulture" href="/book/show/1723385.The_Vulture">
+                      <img alt="The Vulture" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358186992i/1723385._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/1723385.The_Vulture">
+                    <span itemprop="name" role="heading" aria-level="4">The Vulture</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="501708" class="u-anchorTarget"></div>
+                    <a title="Now and Then..." href="/book/show/501708.Now_and_Then_">
+                      <img alt="Now and Then..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328047362i/501708._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/501708.Now_and_Then_">
+                    <span itemprop="name" role="heading" aria-level="4">Now and Then...</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="14928741" class="u-anchorTarget"></div>
+                    <a title="The Nigger Factory" href="/book/show/14928741-the-nigger-factory">
+                      <img alt="The Nigger Factory" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358265159i/14928741._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/14928741-the-nigger-factory">
+                    <span itemprop="name" role="heading" aria-level="4">The Nigger Factory</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="60597985" class="u-anchorTarget"></div>
+                    <a title="Letters to Gil" href="/book/show/60597985-letters-to-gil">
+                      <img alt="Letters to Gil" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647100688i/60597985._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/60597985-letters-to-gil">
+                    <span itemprop="name" role="heading" aria-level="4">Letters to Gil</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/21135678.Malik_Al_Nasir"><span itemprop="name">Malik Al Nasir</span></a> <span class="greyText">(Goodreads Author)</span> <span class="authorName greyText smallText role">(Author, Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a> <span class="authorName greyText smallText role">(Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/7235700.Benjamin_Zephania"><span itemprop="name">Benjamin Zephania</span></a> <span class="authorName greyText smallText role">(Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/341565.Lemn_Sissay"><span itemprop="name">Lemn Sissay</span></a> <span class="authorName greyText smallText role">(Foreword)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="478581" class="u-anchorTarget"></div>
+                    <a title="The Vulture &amp; The Nigger Factory" href="/book/show/478581.The_Vulture_The_Nigger_Factory">
+                      <img alt="The Vulture &amp; The Nigger Fa..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328034163i/478581._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/478581.The_Vulture_The_Nigger_Factory">
+                    <span itemprop="name" role="heading" aria-level="4">The Vulture &amp; The Nigger Factory</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="501707" class="u-anchorTarget"></div>
+                    <a title="So Far, So Good" href="/book/show/501707.So_Far_So_Good">
+                      <img alt="So Far, So Good" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1381963110i/501707._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/501707.So_Far_So_Good">
+                    <span itemprop="name" role="heading" aria-level="4">So Far, So Good</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="11325967" class="u-anchorTarget"></div>
+                    <a title="Small Talk at 125th and Lenox" href="/book/show/11325967-small-talk-at-125th-and-lenox">
+                      <img alt="Small Talk at 125th and Lenox" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1326504032i/11325967._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/11325967-small-talk-at-125th-and-lenox">
+                    <span itemprop="name" role="heading" aria-level="4">Small Talk at 125th and Lenox</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="58899392" class="u-anchorTarget"></div>
+                    <a title="Letters to Gil" href="/book/show/58899392-letters-to-gil">
+                      <img alt="Letters to Gil" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1630430560i/58899392._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/58899392-letters-to-gil">
+                    <span itemprop="name" role="heading" aria-level="4">Letters to Gil</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/21135678.Malik_Al_Nasir"><span itemprop="name">Malik Al Nasir</span></a> <span class="greyText">(Goodreads Author)</span> <span class="authorName greyText smallText role">(Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a> <span class="authorName greyText smallText role">(Contributor)(Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/253235.Benjamin_Zephaniah"><span itemprop="name">Benjamin Zephaniah</span></a> <span class="authorName greyText smallText role">(Contributor)(Narrator)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/21779605.Jalal_Munsur_Nuriddin"><span itemprop="name">Jalal Munsur Nuriddin</span></a> <span class="authorName greyText smallText role">(Contributor)(Narrator)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="35820728" class="u-anchorTarget"></div>
+                    <a title="Gece Tarifesi: Bir Sınır İhlali Antolojisi" href="/book/show/35820728-gece-tarifesi">
+                      <img alt="Gece Tarifesi: Bir Sınır İh..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1500928348i/35820728._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/35820728-gece-tarifesi">
+                    <span itemprop="name" role="heading" aria-level="4">Gece Tarifesi: Bir Sınır İhlali Antolojisi</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/5196034._enol_Erdo_an"><span itemprop="name">Şenol Erdoğan</span></a> <span class="authorName greyText smallText role">(Editor)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/4462369.William_S_Burroughs"><span itemprop="name">William S. Burroughs</span></a> <span class="authorName greyText smallText role">(Contributor)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a> <span class="authorName greyText smallText role">(Contributor)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/101363.Tom_Waits"><span itemprop="name">Tom Waits</span></a> <span class="authorName greyText smallText role">(Contributor)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="2675174" class="u-anchorTarget"></div>
+                    <a title="Two of a Kind" href="/book/show/2675174-two-of-a-kind">
+                      <img alt="Two of a Kind" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148._SX50_.png">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/2675174-two-of-a-kind">
+                    <span itemprop="name" role="heading" aria-level="4">Two of a Kind</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="138819312" class="u-anchorTarget"></div>
+                    <a title="By Gil Scott-Heron - Now and Then (2000-05-16) [Paperback]" href="/book/show/138819312-by-gil-scott-heron---now-and-then-2000-05-16-paperback">
+                      <img alt="By Gil Scott-Heron - Now an..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699143793i/138819312._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/138819312-by-gil-scott-heron---now-and-then-2000-05-16-paperback">
+                    <span itemprop="name" role="heading" aria-level="4">By Gil Scott-Heron - Now and Then (2000-05-16) [Paperback]</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="175438204" class="u-anchorTarget"></div>
+                    <a title="A veces" href="/book/show/175438204-a-veces">
+                      <img alt="A veces" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1686221753i/175438204._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/175438204-a-veces">
+                    <span itemprop="name" role="heading" aria-level="4">A veces</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="133908466" class="u-anchorTarget"></div>
+                    <a title="THE MIND OF GIL SCOTT-HERON - vinyl lp. A COLLECTION OF POETRY AND MUSIC - H20 GATE BLUES - WE BEG YOUR PARDON (PARDON OUR ANALYSIS) - THE NEW DEAL, AND OTHERS." href="/book/show/133908466-the-mind-of-gil-scott-heron---vinyl-lp-a-collection-of-poetry-and-music">
+                      <img alt="THE MIND OF GIL SCOTT-HERON..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148._SX50_.png">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/133908466-the-mind-of-gil-scott-heron---vinyl-lp-a-collection-of-poetry-and-music">
+                    <span itemprop="name" role="heading" aria-level="4">THE MIND OF GIL SCOTT-HERON - vinyl lp. A COLLECTION OF POETRY AND MUSIC - H20 GATE BLUES - WE BEG YOUR PARDON (PARDON OUR ANALYSIS) - THE NEW DEAL, AND OTHERS.</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="142270877" class="u-anchorTarget"></div>
+                    <a title="Reel-to-reel tape recording for a 1978 anti-PCP public service announcement" href="/book/show/142270877-reel-to-reel-tape-recording-for-a-1978-anti-pcp-public-service-announcem">
+                      <img alt="Reel-to-reel tape recording..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699724369i/142270877._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/142270877-reel-to-reel-tape-recording-for-a-1978-anti-pcp-public-service-announcem">
+                    <span itemprop="name" role="heading" aria-level="4">Reel-to-reel tape recording for a 1978 anti-PCP public service announcement</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="198325167" class="u-anchorTarget"></div>
+                    <a title="Storm Music: Best of" href="/book/show/198325167-storm-music">
+                      <img alt="Storm Music: Best of" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693499088i/198325167._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/198325167-storm-music">
+                    <span itemprop="name" role="heading" aria-level="4">Storm Music: Best of</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a> <span class="authorName greyText smallText role">(artist)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="143017583" class="u-anchorTarget"></div>
+                    <a title="The Last Holiday: A Memoir by Gil Scott-Heron (3-Oct-2013) Paperback" href="/book/show/143017583-the-last-holiday">
+                      <img alt="The Last Holiday: A Memoir ..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1696898908i/143017583._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/143017583-the-last-holiday">
+                    <span itemprop="name" role="heading" aria-level="4">The Last Holiday: A Memoir by Gil Scott-Heron (3-Oct-2013) Paperback</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="129685301" class="u-anchorTarget"></div>
+                    <a title="The Gil Scott-Heron Collection, Sampler 1974-1975" href="/book/show/129685301-the-gil-scott-heron-collection-sampler-1974-1975">
+                      <img alt="The Gil Scott-Heron Collect..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/nophoto/book/111x148._SX50_.png">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/129685301-the-gil-scott-heron-collection-sampler-1974-1975">
+                    <span itemprop="name" role="heading" aria-level="4">The Gil Scott-Heron Collection, Sampler 1974-1975</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="65598219" class="u-anchorTarget"></div>
+                    <a title="L'avvoltoio (Bandini)" href="/book/show/65598219-l-avvoltoio-bandini">
+                      <img alt="L'avvoltoio (Bandini)" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670786400i/65598219._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/65598219-l-avvoltoio-bandini">
+                    <span itemprop="name" role="heading" aria-level="4">L'avvoltoio (Bandini)</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="128090759" class="u-anchorTarget"></div>
+                    <a title="Evolutionary Minded: Furthering the Legacy of Gil Scott-Heron" href="/book/show/128090759-evolutionary-minded">
+                      <img alt="Evolutionary Minded: Furthe..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681163386i/128090759._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/128090759-evolutionary-minded">
+                    <span itemprop="name" role="heading" aria-level="4">Evolutionary Minded: Furthering the Legacy of Gil Scott-Heron</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a> <span class="authorName greyText smallText role">(artist)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/24086427.Killah_Priest"><span itemprop="name">Killah Priest</span></a> <span class="authorName greyText smallText role">(Artist)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/29874.Martin_Luther"><span itemprop="name">Martin Luther</span></a> <span class="authorName greyText smallText role">(Artist)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/19178323.Chuck_D_"><span itemprop="name">Chuck D.</span></a> <span class="authorName greyText smallText role">(Artist)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="166972019" class="u-anchorTarget"></div>
+                    <a title="Small talk at 125th and Lenox;: A collection of Black poems" href="/book/show/166972019-small-talk-at-125th-and-lenox">
+                      <img alt="Small talk at 125th and Len..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697848980i/166972019._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/166972019-small-talk-at-125th-and-lenox">
+                    <span itemprop="name" role="heading" aria-level="4">Small talk at 125th and Lenox;: A collection of Black poems</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="141656825" class="u-anchorTarget"></div>
+                    <a title="The Vulture by Scott-Heron, Gil(July 9, 2010) Paperback" href="/book/show/141656825-the-vulture-by-scott-heron-gil-july-9-2010-paperback">
+                      <img alt="The Vulture by Scott-Heron,..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697031825i/141656825._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/141656825-the-vulture-by-scott-heron-gil-july-9-2010-paperback">
+                    <span itemprop="name" role="heading" aria-level="4">The Vulture by Scott-Heron, Gil(July 9, 2010) Paperback</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="201492863" class="u-anchorTarget"></div>
+                    <a title="We're New Here" href="/book/show/201492863-we-re-new-here">
+                      <img alt="We're New Here" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699025910i/201492863._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/201492863-we-re-new-here">
+                    <span itemprop="name" role="heading" aria-level="4">We're New Here</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/45498991.Gil_Scott_Heron_And_Jamie_Xx"><span itemprop="name">Gil Scott-Heron And Jamie Xx</span></a>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/14033053.Jamie_XX"><span itemprop="name">Jamie XX</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="100113035" class="u-anchorTarget"></div>
+                    <a title="L'Ultima vacanza. Un'autobiografia. (Phileas Fogg)" href="/book/show/100113035-l-ultima-vacanza-un-autobiografia-phileas-fogg">
+                      <img alt="L'Ultima vacanza. Un'autobi..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1678894733i/100113035._SY75_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/100113035-l-ultima-vacanza-un-autobiografia-phileas-fogg">
+                    <span itemprop="name" role="heading" aria-level="4">L'Ultima vacanza. Un'autobiografia. (Phileas Fogg)</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="138942028" class="u-anchorTarget"></div>
+                    <a title="Gil Scott-Heron 1st edit/1 print Anti PCP Radio PSA Original Tape 1978 [Paperback] Scott-Heron, Gil [Paperback] Scott-Heron, Gil" href="/book/show/138942028-gil-scott-heron-1st-edit-1-print-anti-pcp-radio-psa-original-tape-1978">
+                      <img alt="Gil Scott-Heron 1st edit/1 ..." class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697502108i/138942028._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/138942028-gil-scott-heron-1st-edit-1-print-anti-pcp-radio-psa-original-tape-1978">
+                    <span itemprop="name" role="heading" aria-level="4">Gil Scott-Heron 1st edit/1 print Anti PCP Radio PSA Original Tape 1978 [Paperback] Scott-Heron, Gil [Paperback] Scott-Heron, Gil</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/267657.Gil_Scott_Heron"><span itemprop="name">Gil Scott-Heron</span></a>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                  
+              <!-- Add query string params -->
+            
+              
+            
+              <tr itemscope="" itemtype="http://schema.org/Book">
+                <td width="5%" valign="top">
+                  <div id="202544930" class="u-anchorTarget"></div>
+                    <a title="Finding Forever" href="/book/show/202544930-finding-forever">
+                      <img alt="Finding Forever" class="bookCover" itemprop="image" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1700681272i/202544930._SX50_.jpg">
+            </a>    </td>
+                <td width="100%" valign="top">
+                  <a class="bookTitle" itemprop="url" href="/book/show/202544930-finding-forever">
+                    <span itemprop="name" role="heading" aria-level="4">Finding Forever</span>
+            </a>      <br>
+                    <span class="by">by</span>
+            <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/46998781.Karriem_Riggins"><span itemprop="name">Karriem Riggins</span></a> <span class="authorName greyText smallText role">(performer)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/46998782.Edith_Dawn_Yorkley"><span itemprop="name">Edith Dawn Yorkley</span></a> <span class="authorName greyText smallText role">(performer)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/46998783.Laura_Rajanen"><span itemprop="name">Laura Rajanen</span></a> <span class="authorName greyText smallText role">(performer)</span>, 
+            </div>
+            <div class="authorName__container">
+            <a class="authorName" itemprop="url" href="https://www.goodreads.com/author/show/46998784.Lonnie_Lynn"><span itemprop="name">Lonnie Lynn</span></a> <span class="authorName greyText smallText role">(performer)</span>
+            </div>
+            </span>
+            
+                    <br>
+                    
+            
+            
+                    
+            
+            
+            
+                        </td>
+                        
+            
+              </tr>
+            
+            
+                </tbody></table>
+            <!-- Reference Link -->
+            <p class="text-center"><strong>For further reading on Gill Scott-Heron, be sure to check out his <a href="https://en.wikipedia.org/wiki/Gil_Scott-Heron#Bibliography" target="_blank"><em>Poetry and Written Materials</em></a></strong>.</p>
+            <!-- End of Reference Link -->
+          </div>
+        </div>
+        <!-- End of container and jumbotron -->
+      </div>
+      <div class="panel panel-body"></div>
+      <!-- Begin footer -->
+      <footer class="text-center">Written and coded by <a href="https://github.com/MoreKayaa/Internet-Applications-Programming" target="_blank"><em>Favian Mokaya</em></a></footer>
+      <!-- End of footer -->
+      </div>
+     </html>
+    

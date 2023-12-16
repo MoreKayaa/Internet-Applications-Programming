@@ -1,0 +1,50 @@
+.tableList {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+.leftContainer {
+    word-wrap: break-word;
+}
+
+.mainContentFloat {
+    float: left;
+    width: 960px;
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 12px;
+    min-height: 400px;
+    background: #FFFFFF;
+}
+
+.mainContent {
+    margin: 0 auto;
+    text-align: left;
+    width: 970px;
+    background: #FFFFFF;
+}
+
+.mainContentContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+body, ol, ul, td, th {
+    font-size: 12px;
+    margin: 0;
+}
+
+body {
+    color: #181818;
+}
+
+body, p, ol, ul, td, th {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    padding: 0;
+}

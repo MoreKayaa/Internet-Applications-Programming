@@ -1,0 +1,52 @@
+music.style{
+    display: grid;
+}
+.container {
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: rgba(0,0,0,0);
+border-spacing: 0;
+border-collapse: collapse;
+font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 18px;
+color: #337ab7;
+box-sizing: border-box;
+font-weight: bold;
+font-size: large;
+}
+body #pageContainer #pageInnerContain section #pageTabs .tabContent {
+    grid-column-gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    color: #1e1e1e;
+    display: grid;
+    grid-template-columns: repeat(7,minmax(0,1fr));
+    margin-bottom: 1px;
+    padding-top: 20px;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body #pageContainer.album {
+    color: #fff;
+}
+body {
+    color: #fff;
+    margin: 0 auto;
+    width: 100%;
+}
+body {
+    font-family: Inter,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.15;
+}
